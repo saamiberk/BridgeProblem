@@ -9,7 +9,7 @@ ii)	While the traffic lamp is red, for a new arrival car follow the below instru
 a.	if there is no arrival car on one of the other roads, then turn the traffic lamp from red to green and the other lamp green to red.
 b.	else (that means both of the other roads are busy) keep the traffic lamp in red until the number of the waiting cars on the red-lamp road reaches 3, then turn the longest traffic flown road lamp from green to red and waiting road’s lamp red to green.
 Make sure that you have enough cars, and that they decide to cross the bridge often enough that above two traffic situations can occur. 
-Use one thread to represent one car. Create 60 cars; 20 for each road. Use Math.random() method to create cars randomly in 20 seconds. 
+Use one thread to represent one car. Create 60 cars; 20 for each road. Use random method to create cars randomly in 20 seconds. 
 Suppose the length of the bridge is equal to three-car-length and one-car-length speed of a car is 0.5 second.
 
 # Screenshot
